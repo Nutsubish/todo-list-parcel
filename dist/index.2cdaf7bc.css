@@ -1,0 +1,61 @@
+body {
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 0 10px #000;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 3px 0 0 3px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 0 3px 3px 0;
+  padding: 8px 16px;
+  font-size: 16px;
+  transition: all .6s;
+}
+
+button:hover {
+  background-color: red;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  background-color: #f9f9f9;
+  border-radius: 3px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  display: flex;
+}
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
